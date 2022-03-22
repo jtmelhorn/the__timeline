@@ -1,6 +1,25 @@
 {
+  "type": "module",
   "dependencies": {
     "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0",
     "openai": "^2.0.4"
-  }
+  },
+  "name": "the__timeline",
+  "description": "This bot will get us all of the important loot.",
+  "version": "1.0.0",
+  "main": "discordbot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jtmelhorn/the__timeline.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jtmelhorn/the__timeline/issues"
+  },
+  "homepage": "https://github.com/jtmelhorn/the__timeline#readme"
 }

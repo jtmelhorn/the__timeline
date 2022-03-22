@@ -22,8 +22,9 @@ const openai = new OpenAIApi(configuration);
 
 
 client.on('message', async(message) => {
-    var completion = await openai.createCompletion("text-davinci-001", {
-        prompt: "Generate a weird task."
+    var completion = await openai.createCompletion("text-davinci-002", {
+        prompt: "Generate a weird task.",
+        n: 1
     })
 
 
